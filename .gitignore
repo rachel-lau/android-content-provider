@@ -1,0 +1,7 @@
+.DS_Store
+SourceFiles/Skeleton/ContentProviderLabContentProvider/bin/
+SourceFiles/Skeleton/ContentProviderLabContentProvider/gen/
+SourceFiles/Skeleton/ContentProviderLabUser/bin/
+SourceFiles/Skeleton/ContentProviderLabUser/gen/
+SourceFiles/TestCases/ContentProviderLabTest/bin/
+SourceFiles/TestCases/ContentProviderLabTest/gen/
