@@ -65,20 +65,16 @@ public class PlaceViewAdapter extends CursorAdapter {
 
 		if (null != newCursor) {
 
-        // TODO - clear the ArrayList list so it contains
-		// the current set of PlaceRecords. Use the 
-		// getPlaceRecordFromCursor() method to add the
-		// current place to the list
-		
-
-            
-            
-            
-            
-            
-            // Set the NotificationURI for the new cursor
+			// TODO - clear the ArrayList list so it contains
+			// the current set of PlaceRecords. Use the 
+			// getPlaceRecordFromCursor() method to add the
+			// current place to the list
+			list.clear();
+			list.add(getPlaceRecordFromCursor(newCursor));
+                   
+			// Set the NotificationURI for the new cursor
 			newCursor.setNotificationUri(mContext.getContentResolver(),
-					PlaceBadgesContract.CONTENT_URI);
+				PlaceBadgesContract.CONTENT_URI);
 
 		}
 		return newCursor;
